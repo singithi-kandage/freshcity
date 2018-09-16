@@ -1,0 +1,123 @@
+/*HTML*/
+html{
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif !important;
+}
+body{
+	padding-bottom: 20%;
+}
+h1{
+	text-transform: uppercase;
+	padding-bottom: 1em;
+	font-size: 2em;
+}
+
+section{
+	padding: 2em;
+}
+/*Logo*/
+#logo{
+    width:15%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/*Main Navigation*/
+
+#main-nav{
+    background-color: white !important;
+    border-top: 5px solid silver;
+    border-bottom: 5px solid silver;
+}
+
+#main-nav li{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#main-nav li a{
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+/*Carousel*/
+.carousel{
+    margin: 1em;
+}
+
+.carousel.slide{
+    margin: 0 auto;
+    margin: 2em;
+    width: 85vw;
+    height: 70vh;
+}
+
+.carousel-item{
+    margin: 0 auto;
+    width: 85vw;
+    height: 70vh;
+    overflow: hidden;
+}
+
+.carousel-image{
+    width:100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.carousel-image img{
+    min-width: 100%;
+    height: auto;
+}
+
+.carousel-indicators li {
+    background-color: rgba(0,0,0,0);
+    height: 1em;
+    width: 1em;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.carousel-caption{
+    left: 0%;
+    top: 70%;
+    width: 100%;
+    height: 40%;
+    background-color: rgba(19, 15, 10, 0.8)
+}
+
+/*Product Page*/
+#filter{
+	background-color: silver;
+	padding:2em 1em;
+	max-height: auto;
+}
+
+label{
+	font-weight: bold;
+}
+
+.searchItem{
+	width: 100%;
+	height: 95%;
+	border: 1px solid silver;
+	padding: 1em;
+	margin: 0 1em 1em 1em;
+	overflow:hidden;
+}
+
+.img-container{
+	width: 100%;
+	height: 80%;
+	overflow:hidden;
+}
+
+.img-container img{
+	width: 100%;
+	height: 100%;
+}
+
+.searchItem p{
+	font-size: 1.2em;
+}
+
+
